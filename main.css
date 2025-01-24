@@ -6,7 +6,15 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
-#map { height: 180px; }
+#map {
+    height: 400px; /* Required for the map to display */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
 #parking-data {
     display: flex;
     flex-wrap: wrap;
